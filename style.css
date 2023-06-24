@@ -20,7 +20,7 @@ body {
 .main {
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: right 50vw bottom 40vh, left 40vw top 44vh;
+    background-position: right 48vw bottom 42vh, left 50vw top 49vh;
     background-color: var(--dark-cyan);
     min-height: 100vh;
     display: flex;
@@ -99,6 +99,13 @@ body {
 }
 
 
-
+@media screen and (max-width:768px) {
+    .main {
+        min-height: 100vh;
+        background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: right 40vw bottom 35vh, left 35vw top 46vh;
+    }
+}
 
 
